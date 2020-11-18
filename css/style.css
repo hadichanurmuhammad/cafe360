@@ -67,3 +67,12 @@
 	width: 600px;
 	padding-bottom: 50px;
 }
+.order{
+	width: 1000px;
+	padding-left: 50px;
+	display: flex;
+	flex-direction: row;
+}
+.order-link-story{
+	display: flex;
+}

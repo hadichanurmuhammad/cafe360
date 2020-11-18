@@ -5,9 +5,65 @@
 	text-decoration: none;
 	box-sizing: border-box;
 }
-.nav{
+.header{
+	width: 100vw;
+}
+.container{
 	background-color: #FAFAFB;
+	width: 1140px;
+	margin-left: auto;
+}
+.food{
+	padding-top: 150px;
+	width: 1000px;
+    padding-left: 50px;
+}
+.nav{
+	padding-top: 35px;
+	padding-right: 80px;
+	background-color: #FAFAFB;
+	width: 1000px;
+	display: flex;
+    margin: 0 auto;
 }
 .nav-img{
 	height: 25px;
+	margin-left: -20px;
+}
+.nav-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.nav-list{
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+}
+.nav-link{
+	margin-left: 50px;
+	color: rgba(0 ,0 ,0 ,0.5);
+}
+.nav-button{
+	border: none;
+	outline: none;
+	background-color: #FAFAFB;
+	margin-left: auto;
+
+}
+.header-subtext{
+	font-family: 'Comfortaa', cursive;
+	padding-bottom: 15px;
+}
+.header-title{
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.subtext{
+	font-family: 'Comfortaa', cursive;
+	width: 600px;
+	padding-bottom: 50px;
 }

@@ -6,17 +6,32 @@
 	box-sizing: border-box;
 }
 .header{
-	width: 100vw;
+	background-color: #FAFAFB;
+	height: 100vh;
+}
+header >.container{
+	width: 1140px;
+	margin: 0 auto;
 }
 .container{
-	background-color: #FAFAFB;
 	width: 1140px;
-	margin-left: auto;
+	margin: 0 auto;
 }
 .food{
 	padding-top: 150px;
 	width: 1000px;
     padding-left: 50px;
+}
+.main{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.background{
+	position: absolute;
+	top: 0;
+	left: 650px;
+	width: 450px; 
 }
 .nav{
 	padding-top: 35px;
@@ -37,14 +52,17 @@
 	
 }
 .nav-list{
-	font-family: 'Comfortaa', cursive;
-	font-size: 14px;
+	font-family: "Josefin Sans";
+	font-size: 15px;
 	display: flex;
 	justify-content: center;
 }
 .nav-link{
 	margin-left: 50px;
 	color: rgba(0 ,0 ,0 ,0.5);
+}
+.nav-link:focus{
+	color: #000;
 }
 .nav-button{
 	border: none;
@@ -54,25 +72,207 @@
 
 }
 .header-subtext{
-	font-family: 'Comfortaa', cursive;
+	font-family: "Varela Round";
 	padding-bottom: 15px;
 }
 .header-title{
-	font-family: 'Comfortaa', cursive;
+	font-family: "Josefin Sans";
 	font-weight: bold;
+	width: 100%;
+	font-size: 50px;
 	padding-bottom: 20px;
 }
 .subtext{
-	font-family: 'Comfortaa', cursive;
-	width: 600px;
+	font-family: "Varela Round";
+	width: 510px;
 	padding-bottom: 50px;
+	line-height: 2;
+	color: rgba(0 ,0 ,0 ,0.5);
 }
 .order{
+	background-color: #FAFAFB;
+	border:none;
+	outline: none;
+	margin-left: auto;
 	width: 1000px;
-	padding-left: 50px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 .order-link-story{
 	display: flex;
+	align-items: center;
+}
+.order-link{
+	width: 200px;
+	text-align: center;
+	font-family: "Varela Round";
+	color: #fff;
+	background-color: #00D042;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.order-img{
+	background-color: #fff;
+	box-shadow: 0 0 30px 1px lightgrey;
+	width: 35px;
+	height: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 80px;
+	border-radius: 50%;
+}
+.order-subtext{
+	font-family: "Varela Round";
+	color: #000;
+	padding-left: 20px;
+
+}
+
+.specialties{
+	margin-top: 150px;
+	width: 100vw;
+	padding-bottom: 50px;
+}
+.specialties-title{
+	font-family: "Josefin Sans";
+	font-size: 50px;
+	text-align: center;
+}
+.specialties-subtext{
+	font-family: "Varela Round";
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 80px;
+	color: #9a9a9a;
+}
+.image{
+	width: 50%;
+}
+.image-img{
+	width: 400px;
+	margin-left: 40px;
+}
+.info{
+	width: 50%;
+	padding-top: 80px;
+	margin-right: 100px;
+}
+.info-title{
+	font-family: "Josefin Sans";
+	font-size: 30px;
+	width: 400px;
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+.info-subtext{
+	font-family: "Varela Round";
+	width: 500px;
+	color: #9a9a9a;
+	line-height: 1.7;
+}
+.flex{
+	display: flex;
+}
+.dishes{
+	margin: 50px 0;
+	display: flex;
+	
+}
+.dishes-img{
+	width: 50%;
+}
+.side{
+	width: 50%;
+}
+.dishes-title{
+	margin-left: 40px;
+	padding-top: 80px;
+	font-family: "Josefin Sans";
+	font-size: 30px;
+	width: 400px;
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+.dishes-subtext{
+	margin-left: 40px;
+	font-family: "Varela Round";
+	width: 500px;
+	color: #9a9a9a;
+	line-height: 1.7;
+}
+.dishes-img-image{
+	width: 400px;
+}
+.infos-title{
+	font-family: "Josefin Sans";
+	font-size: 30px;
+	width: 500px;
+	line-height: 35px;
+	padding-bottom: 20px;
+}
+.user >.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.user-title{
+	text-align: center;
+	font-family: "Josefin Sans";
+	font-size: 50px;
+	padding-bottom: 5px;
+}
+.user-subtext{
+	text-align: center;
+	font-family: "Varela Round";
+	color: #9a9a9a;
+	padding-bottom: 80px;
+}
+.happy{
+	display: flex;
+	justify-content: center;
+}
+.icon-img{
+	width: 52px;
+    height: 41px;
+}
+.icon-subtext{
+	width: 450px;
+	line-height: 1.5;
+	color: #9a9a9a;
+	font-family: "Varela Round";
+	padding-bottom: 30px;
+}
+.happy-subtext{
+	font-family: "Josefin Sans";
+	font-weight: bold;
+}
+.happy-icon-subtext{
+	font-family: "Varela Round";
+	color: #9a9a9a;
+	padding-top: 5px;
+}
+.happy-img{
+	width: 80%;
+}
+.dot{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+
+}
+span{
+	width: 5px;
+	height: 5px;
+	background-color: #9a9a9a;
+	margin: 5px;
+	border-radius: 50%;
+}
+span:hover{
+	background-color: #34bf49;
+	width: 10px;
+	height: 10px;
 }

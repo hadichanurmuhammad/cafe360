@@ -330,3 +330,54 @@ span:hover{
 	margin-left: 200px;
 	width: 50%;
 }
+.app-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.app-list{
+	margin-bottom: 50px;
+}
+.app-link{
+	font-family: "Josefin Sans";
+	color: #9a9a9a;
+	padding: 40px;
+}
+.app-link:focus{
+	color: #34bf49;
+}
+.app-subtext{
+	font-family: "Josefin Sans";
+	font-size: 40px;
+	font-weight: bold;
+	color: #545760;
+	text-align: center;
+	padding-top: 80px;
+}
+.fruits{
+	background-image: 
+	  linear-gradient( hsla(0, 0%, 100%, 0.8),50%,rgba(255, 255, 255, 0.8)),
+	  url("../img/img (2).png");
+	width: 100vw;
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.links{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.links-subtext{
+	margin-right: auto;
+	font-family: "Josefin Sans";
+	color: #9a9a9a;
+}
+.links-img{
+	margin: 0 25px;
+	width: 30px;
+}

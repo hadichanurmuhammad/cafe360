@@ -276,3 +276,57 @@ span:hover{
 	width: 10px;
 	height: 10px;
 }
+.update > .container{
+	display: flex;
+	width: 1140px;
+	margin-left: auto;
+	padding-left: 50px;
+}
+.update{
+	height: 100vh;
+}
+.get{
+	width: 50%;
+}
+.update-subtext{
+	color: #464952;
+	padding-top: 150px;
+	font-family: "Josefin Sans";
+	font-size: 45px;
+	font-weight: bold;
+	padding-bottom: 10px;
+
+}
+.get-subtext{
+	font-family: "Varela Round";
+	width: 500px;
+	color: #9a9a9a;
+	line-height: 1.8;
+	padding-bottom: 30px;
+}
+.update-input{
+	font-family: "Varela Round";
+	position: relative;
+	box-shadow: 5px 5px 20px 5px lightgrey;
+	border: none;
+	padding: 12px;
+	width: 420px;
+}
+.update-button{
+	font-family: "Varela Round";
+	color: #fff;
+	position: absolute;
+	width: 85px;
+	left: 455px;
+	bottom: -2399px;
+	outline: none;
+	padding: 12px;
+	text-transform: uppercase;
+	background-color: #34bf49;
+	border: none;
+}
+.update-img{
+	margin-top: 70px;
+	margin-left: 200px;
+	width: 50%;
+}
